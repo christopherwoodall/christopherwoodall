@@ -21,6 +21,6 @@ class Chris
 <a href="https://github.com/christopherwoodall">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=christopherwoodall&show_icons=true&theme=github_dark" />
 </a>
-<a href="https://github.com/jdjaxon">
+<a href="https://github.com/christopherwoodall">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=christopherwoodall&layout=compact&theme=github_dark&langs_count=10" />
 </a>
