@@ -22,5 +22,5 @@ class Chris
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=christopherwoodall&show_icons=true&theme=github_dark" />
 </a>
 <a href="https://github.com/christopherwoodall">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=christopherwoodall&layout=compact&theme=github_dark&langs_count=10" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=christopherwoodall&layout=compact&theme=github_dark&langs_count=10&count_private=true&show_icons=true&size_weight=0.5&count_weight=0.5" />
 </a>
