@@ -19,8 +19,8 @@ class Chris
 ## 📈 Stats
 
 <a href="https://github.com/christopherwoodall">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=christopherwoodall&count_private=true&show_icons=true&size_weight=0.5&count_weight=0.5&theme=github_dark" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=christopherwoodall&&hide=css,html,tex&theme=react&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide_border=true&langs_count=5&layout=compact&theme=github_dark&count_private=true&show_icons=true" />
 </a>
 <a href="https://github.com/christopherwoodall">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=christopherwoodall&layout=compact&theme=github_dark&langs_count=10&count_private=true&show_icons=true&size_weight=0.5&count_weight=0.5" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=christopherwoodall&&hide=css,html,tex&theme=react&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide_border=true&langs_count=10&layout=compact&theme=github_dark&count_private=true&show_icons=true" />
 </a>
