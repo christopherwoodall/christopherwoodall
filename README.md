@@ -16,7 +16,7 @@ class Chris
   quote: str = "'"
 ```
 
-
+<!--
 ## 📈 Stats
 
 <a href="https://github.com/christopherwoodall">
@@ -25,4 +25,4 @@ class Chris
 <a href="https://github.com/christopherwoodall">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=christopherwoodall&hide=css,html,tex&theme=react&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide_border=true&langs_count=10&layout=compact&theme=github_dark&count_private=true&show_icons=true" />
 </a>
-
+-->
