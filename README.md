@@ -12,7 +12,7 @@ I'm an experienced full-stack developer, designer, and maker with a strong backg
 class Chris
   pronouns: str = "he" | "him"
   code: list = ["python", "go", "c++", "assembly", "javascript", "html", "css"]
-  location: tuple = (36.1627, 86.7816)
+  location: tuple = (41.303921, -81.901693)
   quote: str = "'"
 ```
 
