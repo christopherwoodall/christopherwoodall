@@ -85,19 +85,19 @@ Machine Learning Engineer and Cyber Operations Specialist with a background in s
 
 ### Education & Training
 
-* A.A.S. Mechatronics | Volunteer State University | 2025
-* Cyber Common Technical Core (CCTC) | US Army | Advanced Cyber Operations
-* Cyber Training Course (CTC) | NSA Accredited | Network Exploitation
-* Cyber Operations Specialist Course | US Army | 2020
-* Joint Cyber Analysis Course (JCAC) | US Army | 2019
+A.A.S. Mechatronics | Volunteer State University | 2025
+Cyber Common Technical Core (CCTC) | US Army | Advanced Cyber Operations
+Cyber Training Course (CTC) | NSA Accredited | Network Exploitation
+Cyber Operations Specialist Course | US Army | 2020
+Joint Cyber Analysis Course (JCAC) | US Army | 2019
 
 ### Certifications
 
-* Generative AI Learning Path | Google
-* Computer Vision Deep Dive in Python | LinkedIn
-* Penetration Testing | Virtual Hacking Labs
-* Strategic Cybersecurity Management | AttackIQ
-* Splunk Infrastructure Overview | Splunk
-* Foundations of Operationalizing MITRE ATT&CK | AttackIQ
-* Digital Forensics (AWR-139) | TEEX
-* SMSCP Level 1 | Siemens
+Generative AI Learning Path | Google
+Computer Vision Deep Dive in Python | LinkedIn
+Penetration Testing | Virtual Hacking Labs
+Strategic Cybersecurity Management | AttackIQ
+Splunk Infrastructure Overview | Splunk
+Foundations of Operationalizing MITRE ATT&CK | AttackIQ
+Digital Forensics (AWR-139) | TEEX
+SMSCP Level 1 | Siemens
