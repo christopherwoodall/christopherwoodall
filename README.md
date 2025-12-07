@@ -1,4 +1,3 @@
-# Christopher Woodall
 ### Machine Learning Engineer & Cyber Capability Specialist
 
 ## Professional Summary
