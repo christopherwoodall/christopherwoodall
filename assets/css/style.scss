@@ -101,3 +101,23 @@ code, pre {
     border-bottom: 1px solid #292e42;
   }
 }
+
+
+/* Styling the post list */
+ul.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+ul.post-list li {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #292e42;
+}
+
+ul.post-list li span {
+  display: block;
+  font-size: 0.8em;
+  color: #565f89;
+  margin-top: 4px;
+}
