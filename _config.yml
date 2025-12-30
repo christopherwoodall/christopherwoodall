@@ -1,6 +1,10 @@
 title: A Blog
 description: digital musings.
 
-theme: minima
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: pages-themes/minimal@v0.2.0
+# theme: minima
 
 show_downloads: false
