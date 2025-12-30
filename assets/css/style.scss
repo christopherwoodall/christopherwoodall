@@ -183,61 +183,54 @@ ul.post-list {
   }
 }
 
-/* Notes Directory Grid */
+/* Notes Grid Layout */
 .notes-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 20px;
   margin-top: 30px;
 }
 
 .topic-card {
   background: $bg-surface;
-  padding: 20px;
-  border-radius: 8px;
   border: 1px solid $border-dim;
-  transition: border-color 0.2s ease;
+  border-radius: 8px;
+  padding: 20px;
+  transition: transform 0.2s ease, border-color 0.2s ease;
 
   &:hover {
     border-color: $accent-blue;
+    transform: translateY(-2px);
   }
 
   h3 {
     margin-top: 0;
     font-size: 1.1rem;
-    color: $accent-blue;
     border-bottom: 1px solid $border-dim;
     padding-bottom: 10px;
-  }
+    margin-bottom: 15px;
 
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 10px 0 0;
-    
-    li {
-      font-size: 0.9rem;
-      margin-bottom: 8px;
+    a {
+      color: $text-bright;
+      text-decoration: none;
+      &:hover { color: $accent-blue; }
     }
   }
 }
 
-.topic-note-list {
+.topic-note-list, .post-list {
   list-style: none;
   padding: 0;
-  margin: 10px 0 0;
+  margin: 0;
 
   li {
-    font-size: 0.85rem;
-    margin-bottom: 6px;
-    line-height: 1.2;
+    font-size: 0.9rem;
+    margin-bottom: 8px;
     
     a {
-      color: $text-main;
-      &:hover {
-        color: $accent-blue;
-        text-decoration: none;
-      }
+      color: $accent-blue;
+      opacity: 0.8;
+      &:hover { opacity: 1; }
     }
   }
 }
