@@ -11,11 +11,8 @@
   </ul>
 
     <p class="sidebar-heading">Technical Notes</p>
-
     <ul class="nested-nav">
-    {% comment %} 
-        1. Create a unique list of folder names (topics) 
-    {% endcomment %}
+    {% comment %} 1. Get unique list of folders {% endcomment %}
     {% assign topics = "" | split: "" %}
     {% for note in site.notes %}
         {% assign path_parts = note.relative_path | split: "/" %}
@@ -27,16 +24,34 @@
         {% endif %}
     {% endfor %}
 
-    {% comment %} 
-        2. Loop through the folders and list their notes 
-    {% endcomment %}
+    {% comment %} 2. Render folder structure {% endcomment %}
     {% for topic in topics %}
+        {% assign readme_url = "" %}
+        {% assign display_name = topic | replace: "-", " " | capitalize %}
+        
+        {% comment %} Check for a readme file in this folder {% endcomment %}
+        {% for note in site.notes %}
+        {% assign note_parts = note.relative_path | split: "/" %}
+        {% assign filename = note_parts | last | downcase %}
+        {% if note_parts[1] == topic and filename == "readme.md" %}
+            {% assign readme_url = note.url %}
+            {% if note.title %}{% assign display_name = note.title %}{% endif %}
+        {% endif %}
+        {% endfor %}
+
         <li class="topic-title">
-        {{ topic | replace: "-", " " | capitalize }}
+        {% if readme_url != "" %}
+            <a href="{{ readme_url | relative_url }}" class="topic-link">{{ display_name }}</a>
+        {% else %}
+            {{ display_name }}
+        {% endif %}
+        
         <ul>
             {% for note in site.notes %}
             {% assign note_parts = note.relative_path | split: "/" %}
-            {% if note_parts[1] == topic %}
+            {% assign filename = note_parts | last | downcase %}
+            {% comment %} List files that ARE in this topic but ARE NOT the readme {% endcomment %}
+            {% if note_parts[1] == topic and filename != "readme.md" %}
                 <li>
                 <a href="{{ note.url | relative_url }}">{{ note.title | default: note_parts.last }}</a>
                 </li>
