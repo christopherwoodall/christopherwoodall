@@ -1,3 +1,8 @@
 title: A Blog
 description: Digital musings.
-theme: minima
+
+# theme: minima
+remote_theme: vaibhavvikas/jekyll-theme-minimalistic
+plugins:
+  - jekyll-remote-theme
+
