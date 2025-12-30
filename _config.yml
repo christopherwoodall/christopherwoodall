@@ -3,6 +3,12 @@ title_separator: "|"
 description: digital musings.
 
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
   - jekyll-remote-theme
 
 remote_theme: mmistakes/minimal-mistakes
