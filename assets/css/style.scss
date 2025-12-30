@@ -1,0 +1,103 @@
+---
+---
+@import "{{ site.theme }}";
+
+/* --- 1. Base Layout & Typography --- */
+body {
+  background-color: #1a1b26;
+  color: #a9b1d6;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+  color: #c0caf5;
+}
+
+h2 { border-bottom: none; }
+
+a {
+  color: #7aa2f7;
+  transition: color 0.2s ease;
+}
+
+a:hover, a:focus {
+  color: #bb9af7; /* Muted Purple */
+  text-decoration: underline;
+}
+
+hr {
+  background: #292e42;
+}
+
+blockquote {
+  border-left: 3px solid #414868;
+  color: #565f89;
+}
+
+/* --- 2. Tables & UI Elements --- */
+th, td {
+  border-bottom: 1px solid #292e42;
+}
+
+dt {
+  color: #7aa2f7;
+}
+
+kbd {
+  background-color: #24283b;
+  border: 1px solid #414868;
+  color: #c0caf5;
+  box-shadow: inset 0 -1px 0 #414868;
+}
+
+/* --- 3. Header, Footer & Sidebar --- */
+header a small {
+  color: #565f89;
+}
+
+ul.downloads {
+  background: #24283b;
+  border: 1px solid #292e42;
+}
+
+.downloads li {
+  border-right: 1px solid #292e42;
+}
+
+.downloads a {
+  color: #a9b1d6;
+}
+
+.downloads a strong {
+  color: #7aa2f7;
+}
+
+/* --- 4. Code & Syntax Highlighting (Classy Dark) --- */
+code, pre {
+  background: #24283b;
+  color: #cfc9c2;
+  border: 1px solid #292e42;
+}
+
+.highlight {
+  background-color: #24283b;
+  border-radius: 8px;
+}
+
+/* Syntax Colors */
+.highlight .cm, .highlight .c1, .highlight .c, .highlight .cd { color: #565f89; font-style: italic; } /* Comments */
+.highlight .k, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kc { color: #bb9af7; font-weight: bold; } /* Keywords */
+.highlight .s, .highlight .s2, .highlight .s1, .highlight .sb, .highlight .sc { color: #9ece6a; } /* Strings */
+.highlight .nf, .highlight .nx, .highlight .na { color: #7aa2f7; } /* Functions/Attributes */
+.highlight .nc, .highlight .nn { color: #e0af68; } /* Classes */
+.highlight .mi, .highlight .mf, .highlight .mh, .highlight .mo { color: #ff9e64; } /* Numbers */
+.highlight .o, .highlight .ow { color: #89ddff; } /* Operators */
+.highlight .kt { color: #2ac3de; } /* Types */
+
+/* Mobile Border fix */
+@media print, screen and (max-width: 960px) {
+  section {
+    border-top: 1px solid #292e42;
+    border-bottom: 1px solid #292e42;
+  }
+}
