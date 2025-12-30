@@ -2,7 +2,7 @@
 layout: post
 title: "Suet Recipes - Trial and Error"
 date: 2025-12-29
-categories: blog birds
+tags: birds
 ---
 
 # Suet Recipes
