@@ -1,5 +1,6 @@
 title: A Blog
 description: digital musings.
+author: chris
 
 plugins:
   - jekyll-remote-theme
