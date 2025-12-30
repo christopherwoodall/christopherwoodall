@@ -1,0 +1,29 @@
+<div class="profile-container">
+  <img src="https://github.com/{{ site.github_username }}.png" alt="{{ site.github_username }}" class="profile-img">
+  <h2>{{ site.title }}</h2>
+  <p class="description">{{ site.description }}</p>
+</div>
+
+<nav class="sidebar-nav">
+  <hr>
+  <ul>
+    <li><a href="{{ "/" | relative_url }}">Blog/Home</a></li>
+    {% if site.github_username %}
+    <li><a href="https://github.com/{{ site.github_username }}" target="_blank">GitHub</a></li>
+    {% endif %}
+    {% if site.linkedin_username %}
+    <li><a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank">LinkedIn</a></li>
+    {% endif %}
+    {% if site.twitter_username %}
+    <li><a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">Twitter</a></li>
+    {% endif %}
+  </ul>
+</nav>
+
+{% if site.show_downloads %}
+<ul class="downloads">
+  <li><a href="{{ site.github.zip_url }}">ZIP</a></li>
+  <li><a href="{{ site.github.tar_url }}">TAR</a></li>
+  <li><a href="{{ site.github.repository_url }}">Repo</a></li>
+</ul>
+{% endif %}
