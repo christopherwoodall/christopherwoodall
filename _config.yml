@@ -1,8 +1,24 @@
 title: A Blog
-description: Digital musings.
+title_separator: "|"
+description: digital musings.
 
-# theme: minima
-remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 plugins:
   - jekyll-remote-theme
 
+remote_theme: mmistakes/minimal-mistakes
+# theme: minima
+
+minimal_mistakes_skin: "dark"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
