@@ -234,3 +234,41 @@ ul.post-list {
     }
   }
 }
+
+
+/* Home Page Post List Styling */
+ul.post-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 40px;
+
+  li {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $border-dim;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    a {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: $text-bright;
+      &:hover { color: $accent-blue; text-decoration: none; }
+    }
+
+    span {
+      font-size: 0.85rem;
+      color: $text-muted;
+      font-family: monospace;
+    }
+  }
+}
+
+/* Ensure grid items don't look like the main list */
+.topic-note-list li {
+  border: none;
+  padding: 0;
+  margin-bottom: 5px;
+  display: block;
+}
