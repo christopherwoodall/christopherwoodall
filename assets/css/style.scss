@@ -221,3 +221,23 @@ ul.post-list {
     }
   }
 }
+
+.topic-note-list {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+
+  li {
+    font-size: 0.85rem;
+    margin-bottom: 6px;
+    line-height: 1.2;
+    
+    a {
+      color: $text-main;
+      &:hover {
+        color: $accent-blue;
+        text-decoration: none;
+      }
+    }
+  }
+}
