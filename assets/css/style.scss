@@ -2,224 +2,183 @@
 ---
 @import "{{ site.theme }}";
 
-/* --- 1. Base Layout & Typography --- */
+
+$bg-main:      #1a1b26;
+$bg-surface:   #24283b;
+$border-dim:   #292e42;
+$border-bright:#414868;
+
+$text-main:    #a9b1d6;
+$text-bright:  #c0caf5;
+$text-muted:   #565f89;
+
+$accent-blue:  #7aa2f7;
+$accent-purple:#bb9af7;
+$accent-green: #9ece6a;
+$accent-orange:#ff9e64;
+$accent-cyan:  #89ddff;
+$accent-gold:  #e0af68;
+
+/* Base Layout & Typography */
 body {
-  background-color: #1a1b26;
-  color: #a9b1d6;
+  background-color: $bg-main;
+  color: $text-main;
   font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6, strong {
-  color: #c0caf5;
+  color: $text-bright;
 }
 
 h2 { border-bottom: none; }
 
 a {
-  color: #7aa2f7;
-  transition: color 0.2s ease;
-}
+  color: $accent-blue;
+  transition: all 0.2s ease;
+  text-decoration: none;
 
-a:hover, a:focus {
-  color: #bb9af7; /* Muted Purple */
-  text-decoration: underline;
-}
-
-hr {
-  background: #292e42;
-}
-
-blockquote {
-  border-left: 3px solid #414868;
-  color: #565f89;
-}
-
-/* --- 2. Tables & UI Elements --- */
-th, td {
-  border-bottom: 1px solid #292e42;
-}
-
-dt {
-  color: #7aa2f7;
-}
-
-kbd {
-  background-color: #24283b;
-  border: 1px solid #414868;
-  color: #c0caf5;
-  box-shadow: inset 0 -1px 0 #414868;
-}
-
-/* --- 3. Header, Footer & Sidebar --- */
-header a small {
-  color: #565f89;
-}
-
-ul.downloads {
-  background: #24283b;
-  border: 1px solid #292e42;
-}
-
-.downloads li {
-  border-right: 1px solid #292e42;
-}
-
-.downloads a {
-  color: #a9b1d6;
-}
-
-.downloads a strong {
-  color: #7aa2f7;
-}
-
-/* --- 4. Code & Syntax Highlighting (Classy Dark) --- */
-code, pre {
-  background: #24283b;
-  color: #cfc9c2;
-  border: 1px solid #292e42;
-}
-
-.highlight {
-  background-color: #24283b;
-  border-radius: 8px;
-}
-
-/* Syntax Colors */
-.highlight .cm, .highlight .c1, .highlight .c, .highlight .cd { color: #565f89; font-style: italic; } /* Comments */
-.highlight .k, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kc { color: #bb9af7; font-weight: bold; } /* Keywords */
-.highlight .s, .highlight .s2, .highlight .s1, .highlight .sb, .highlight .sc { color: #9ece6a; } /* Strings */
-.highlight .nf, .highlight .nx, .highlight .na { color: #7aa2f7; } /* Functions/Attributes */
-.highlight .nc, .highlight .nn { color: #e0af68; } /* Classes */
-.highlight .mi, .highlight .mf, .highlight .mh, .highlight .mo { color: #ff9e64; } /* Numbers */
-.highlight .o, .highlight .ow { color: #89ddff; } /* Operators */
-.highlight .kt { color: #2ac3de; } /* Types */
-
-/* Mobile Border fix */
-@media print, screen and (max-width: 960px) {
-  section {
-    border-top: 1px solid #292e42;
-    border-bottom: 1px solid #292e42;
+  &:hover, &:focus {
+    color: $accent-purple;
+    text-decoration: underline;
   }
 }
 
-
-/* Styling the post list */
-ul.post-list {
-  list-style: none;
-  padding: 0;
+hr {
+  background: $border-dim;
+  border: 0;
+  height: 1px;
 }
 
-ul.post-list li {
-  margin-bottom: 15px;
-  padding-bottom: 15px;
-  border-bottom: 1px solid #292e42;
+blockquote {
+  border-left: 3px solid $border-bright;
+  color: $text-muted;
+  margin: 0 0 20px;
+  padding-left: 20px;
 }
 
-ul.post-list li span {
-  display: block;
-  font-size: 0.8em;
-  color: #565f89;
-  margin-top: 4px;
+/* UI Elements */
+th, td { border-bottom: 1px solid $border-dim; }
+dt { color: $accent-blue; }
+
+kbd {
+  background-color: $bg-surface;
+  border: 1px solid $border-bright;
+  color: $text-bright;
+  box-shadow: inset 0 -1px 0 $border-bright;
 }
 
-
-/* Sidebar Profile Styling */
+/* Sidebar & Navigation */
 .profile-img {
   width: 120px;
   height: 120px;
-  border-radius: 50%; /* Makes it circular */
-  border: 3px solid #292e42;
+  border-radius: 50%;
+  border: 3px solid $border-dim;
   margin-bottom: 20px;
   transition: transform 0.3s ease;
-}
-
-.profile-img:hover {
-  transform: scale(1.05);
-  border-color: #7aa2f7;
-}
-
-header h2 {
-  font-size: 1.5rem;
-  margin-bottom: 5px;
-  color: #c0caf5;
+  &:hover {
+    transform: scale(1.05);
+    border-color: $accent-blue;
+  }
 }
 
 .description {
   font-size: 0.9rem;
-  color: #565f89;
+  color: $text-muted;
   line-height: 1.4;
 }
 
-/* Sidebar Navigation */
-.sidebar-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 20px 0;
-}
-
-.sidebar-nav li {
-  margin-bottom: 12px;
-}
-
-.sidebar-nav a {
-  font-size: 15px;
-  color: #7aa2f7;
-  text-decoration: none;
-  display: block;
-}
-
-.sidebar-nav a:hover {
-  color: #bb9af7;
-  padding-left: 8px;
-  transition: all 0.2s ease;
-}
-
-.sidebar-nav hr {
-  border: 0;
-  border-top: 1px solid #292e42;
-  margin: 20px 0;
-}
-
-/* Sidebar Group Headings */
 .sidebar-heading {
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #565f89; /* Muted Slate */
+  color: $text-muted;
   margin: 20px 0 10px 0;
   font-weight: bold;
 }
 
-/* Nested Navigation Styling */
-.nested-nav {
+.sidebar-nav, .nested-nav {
   list-style: none;
   padding: 0;
+  
+  ul { list-style: none; padding: 0; }
+  
+  li { margin-bottom: 12px; }
+
+  a {
+    font-size: 15px;
+    display: block;
+    &:hover { padding-left: 8px; }
+  }
 }
 
+/* Technical Notes Specifics */
 .topic-title {
   font-size: 14px;
-  color: #c0caf5;
-  margin-bottom: 10px;
+  color: $text-bright;
   font-weight: 600;
+
+  ul {
+    margin: 8px 0 0 4px;
+    padding-left: 12px;
+    border-left: 2px solid $bg-surface;
+    
+    li { margin-bottom: 5px; }
+    
+    a {
+      font-size: 13px;
+      font-weight: 400;
+      opacity: 0.8;
+      &:hover { opacity: 1; }
+    }
+  }
 }
 
-.topic-title ul {
-  list-style: none;
-  padding-left: 15px;
-  margin-top: 5px;
-  border-left: 1px solid #292e42; /* Vertical guide line */
+.topic-link {
+  color: $text-bright !important;
+  font-weight: 700;
+  &:hover { color: $accent-blue !important; }
 }
 
-.topic-title ul li {
-  margin-bottom: 5px;
+/* Code & Syntax */
+code, pre {
+  background: $bg-surface;
+  color: #cfc9c2;
+  border: 1px solid $border-dim;
 }
 
-.topic-title ul li a {
-  font-size: 13px;
-  color: #7aa2f7;
-  font-weight: 400;
+.highlight {
+  background-color: $bg-surface;
+  border-radius: 8px;
+  
+  .cm, .c1, .c, .cd { color: $text-muted; font-style: italic; }
+  .k, .kd, .kn, .kp, .kr, .kc { color: $accent-purple; font-weight: bold; }
+  .s, .s2, .s1, .sb, .sc { color: $accent-green; }
+  .nf, .nx, .na { color: $accent-blue; }
+  .nc, .nn { color: $accent-gold; }
+  .mi, .mf, .mh, .mo { color: $accent-orange; }
+  .o, .ow { color: $accent-cyan; }
+  .kt { color: #2ac3de; }
 }
 
-.topic-title ul li a:hover {
-  color: #bb9af7;
+/* Post Lists & Global Selectors */
+ul.post-list {
+  @extend .nested-nav;
+  li {
+    padding-bottom: 15px;
+    border-bottom: 1px solid $border-dim;
+    span {
+      display: block;
+      font-size: 0.8em;
+      color: $text-muted;
+      margin-top: 4px;
+    }
+  }
+}
+
+/* Responsive Fixes */
+@media print, screen and (max-width: 960px) {
+  section {
+    border-top: 1px solid $border-dim;
+    border-bottom: 1px solid $border-dim;
+  }
 }
