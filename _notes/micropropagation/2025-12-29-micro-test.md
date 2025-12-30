@@ -1,4 +1,3 @@
-micro test post
 ---
 layout: post
 title: "test micro post"
