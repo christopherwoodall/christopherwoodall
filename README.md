@@ -1,8 +1,3 @@
----
-layout: default
-title: Home
----
-
 ## Welcome.
 
 This is a collection of notes, projects, and occasional deep dives into whatever I’m currently curious about. Thanks for stopping by.
@@ -17,7 +12,6 @@ This is a collection of notes, projects, and occasional deep dives into whatever
   {% for topic in topics %}
     {% if topic.name != "README.md" %}
       
-      {% comment %} Find the README for this specific topic {% endcomment %}
       {% assign topic_readme_url = "" %}
       {% for item in topic.items %}
         {% assign filename = item.relative_path | split: "/" | last | downcase %}
@@ -34,7 +28,7 @@ This is a collection of notes, projects, and occasional deep dives into whatever
             {{ topic.name | replace: "-", " " | capitalize }}
           {% endif %}
         </h3>
-        <ul class="topic-note-list">
+        <ul class="post-list">
           {% for note in topic.items %}
             {% assign filename = note.relative_path | split: "/" | last | downcase %}
             {% unless filename == "readme.md" %}
