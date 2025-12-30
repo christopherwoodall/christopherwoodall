@@ -8,59 +8,8 @@
   <hr>
   <ul>
     <li><a href="{{ "/" | relative_url }}">Blog/Home</a></li>
+    <li><a href="{{ "/notes/" | relative_url }}">Technical Notes</a></li>
   </ul>
-
-    <p class="sidebar-heading">Technical Notes</p>
-    <ul class="nested-nav">
-    {% comment %} 1. Get unique list of folders {% endcomment %}
-    {% assign topics = "" | split: "" %}
-    {% for note in site.notes %}
-        {% assign path_parts = note.relative_path | split: "/" %}
-        {% if path_parts.size > 2 %}
-        {% assign folder_name = path_parts[1] %}
-        {% unless topics contains folder_name %}
-            {% assign topics = topics | push: folder_name %}
-        {% endunless %}
-        {% endif %}
-    {% endfor %}
-
-    {% comment %} 2. Render folder structure {% endcomment %}
-    {% for topic in topics %}
-        {% assign readme_url = "" %}
-        {% assign display_name = topic | replace: "-", " " | capitalize %}
-        
-        {% comment %} Check for a readme file in this folder {% endcomment %}
-        {% for note in site.notes %}
-        {% assign note_parts = note.relative_path | split: "/" %}
-        {% assign filename = note_parts | last | downcase %}
-        {% if note_parts[1] == topic and filename == "readme.md" %}
-            {% assign readme_url = note.url %}
-            {% if note.title %}{% assign display_name = note.title %}{% endif %}
-        {% endif %}
-        {% endfor %}
-
-        <li class="topic-title">
-        {% if readme_url != "" %}
-            <a href="{{ readme_url | relative_url }}" class="topic-link">{{ display_name }}</a>
-        {% else %}
-            {{ display_name }}
-        {% endif %}
-        
-        <ul>
-            {% for note in site.notes %}
-            {% assign note_parts = note.relative_path | split: "/" %}
-            {% assign filename = note_parts | last | downcase %}
-            {% comment %} List files that ARE in this topic but ARE NOT the readme {% endcomment %}
-            {% if note_parts[1] == topic and filename != "readme.md" %}
-                <li>
-                <a href="{{ note.url | relative_url }}">{{ note.title | default: note_parts.last }}</a>
-                </li>
-            {% endif %}
-            {% endfor %}
-        </ul>
-        </li>
-    {% endfor %}
-    </ul>
 
   <hr>
   <p class="sidebar-heading">Socials</p>
