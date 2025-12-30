@@ -4,8 +4,8 @@ description: digital musings.
 plugins:
   - jekyll-remote-theme
 
+# Theme Settings
 remote_theme: pages-themes/minimal@v0.2.0
-
 is_project_page: false
 show_downloads: false
 
@@ -13,3 +13,9 @@ show_downloads: false
 github_username: christopherwoodall
 linkedin_username: 
 twitter_username: telepathicpug
+
+# Collection Settings
+collections:
+  notes:
+    output: true
+    permalink: /notes/:path/

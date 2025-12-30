@@ -179,3 +179,47 @@ header h2 {
   border-top: 1px solid #292e42;
   margin: 20px 0;
 }
+
+/* Sidebar Group Headings */
+.sidebar-heading {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #565f89; /* Muted Slate */
+  margin: 20px 0 10px 0;
+  font-weight: bold;
+}
+
+/* Nested Navigation Styling */
+.nested-nav {
+  list-style: none;
+  padding: 0;
+}
+
+.topic-title {
+  font-size: 14px;
+  color: #c0caf5;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.topic-title ul {
+  list-style: none;
+  padding-left: 15px;
+  margin-top: 5px;
+  border-left: 1px solid #292e42; /* Vertical guide line */
+}
+
+.topic-title ul li {
+  margin-bottom: 5px;
+}
+
+.topic-title ul li a {
+  font-size: 13px;
+  color: #7aa2f7;
+  font-weight: 400;
+}
+
+.topic-title ul li a:hover {
+  color: #bb9af7;
+}
