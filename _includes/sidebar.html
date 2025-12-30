@@ -10,20 +10,42 @@
     <li><a href="{{ "/" | relative_url }}">Blog/Home</a></li>
   </ul>
 
-  <p class="sidebar-heading">Technical Notes</p>
-  {% assign notes_by_category = site.notes | group_by: "categories" %}
-  
-  <ul class="nested-nav">
-    {% for group in notes_by_category %}
-      <li class="topic-title">{{ group.name }}
-        <ul>
-          {% for item in group.items %}
-            <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </li>
+    <p class="sidebar-heading">Technical Notes</p>
+
+    <ul class="nested-nav">
+    {% comment %} 
+        1. Create a unique list of folder names (topics) 
+    {% endcomment %}
+    {% assign topics = "" | split: "" %}
+    {% for note in site.notes %}
+        {% assign path_parts = note.relative_path | split: "/" %}
+        {% if path_parts.size > 2 %}
+        {% assign folder_name = path_parts[1] %}
+        {% unless topics contains folder_name %}
+            {% assign topics = topics | push: folder_name %}
+        {% endunless %}
+        {% endif %}
     {% endfor %}
-  </ul>
+
+    {% comment %} 
+        2. Loop through the folders and list their notes 
+    {% endcomment %}
+    {% for topic in topics %}
+        <li class="topic-title">
+        {{ topic | replace: "-", " " | capitalize }}
+        <ul>
+            {% for note in site.notes %}
+            {% assign note_parts = note.relative_path | split: "/" %}
+            {% if note_parts[1] == topic %}
+                <li>
+                <a href="{{ note.url | relative_url }}">{{ note.title | default: note_parts.last }}</a>
+                </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+        </li>
+    {% endfor %}
+    </ul>
 
   <hr>
   <p class="sidebar-heading">Socials</p>
