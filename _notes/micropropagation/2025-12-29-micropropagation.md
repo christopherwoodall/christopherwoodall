@@ -27,7 +27,7 @@ A guilty pleasure of mine is, and has been, watching YouTube videos of people cr
 
 ## The Recipe (100ml)
 
-Sterlizing the media is **very** important, but busting out a pressure cooker might be too much. We will use microwave sterlization for this run. If it fails then we will look into a more proper setup.
+Sterlizing the media is **very** important, but busting out a pressure cooker might be too much. We will use a mixture of microwave and [chemical sterlization](https://academicjournals.org/journal/AJB/article-full-text-pdf/A50633F60394) for this run. If it fails then we will look into a more proper setup.
 
 This first batch will be a small artisanal brew for testing purposes. Each tube will get 10ml of media solution.
 
