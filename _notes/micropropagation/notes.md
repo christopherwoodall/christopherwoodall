@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Micropropagation Notes"
 date: 2025-12-30
 tags: [ "micropropagation", "tissue culture" ]
