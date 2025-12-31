@@ -1,102 +1,56 @@
 ---
 layout: post
-title: "Micropropagation Fundamentals"
+title: "Micropropagation"
 date: 2025-12-29
-tags: micropropagation
+tags: [ "micropropagation", "tissue culture" ]
 ---
 
-# Plant Tissue Culture: Micropropagation Fundamentals
+# Tissue Culture
 
-This guide summarizes the standardized protocols and chemical logic for micropropagation, structured for repeatable laboratory success.
+Plant propagation has always been fascinating. From the [Nuclear Gardens](https://en.wikipedia.org/wiki/Atomic_gardening) and [Rio Red Grapefruit](https://www.nytimes.com/2007/08/28/science/28crop.html) of the 1970s to the [glowing petunias](https://light.bio/) of today, there has always been something interesting about growing plants.
 
----
+A guilty pleasure of mine is, and has been, watching YouTube videos of people crashing fake economies. From ["Destroying the Economy on Minecraft's WORST Pay-to-Win Server"](https://www.youtube.com/watch?v=kKvAo9rzv5g) to ["How the Runescape Economy Works! (and how to take advantage!)"](https://www.youtube.com/watch?v=wYvsxgTzQTU) fake financial markets are my version of murder mystery podcasts. So when a video entitled ["I accidentally crashed the rare plant market "](https://www.youtube.com/watch?v=7dk3uSLxMI4) came across my feed it peaked my interests. Enough so to invest in a [kit](https://plantsinjars.shop/pages/protocol-documents) and try it myself.
 
-## 1. Phytohormone Logic (The Controllers)
-Growth in a sterile environment is governed by the ratio of Auxins to Cytokinins.
-
-* **Cytokinins (Shooting):** Includes **BAP** (6-Benzylaminopurine), Kinetin, and Zeatin. These signal the plant to divide cells and form stems and leaves.
-* **Auxins (Rooting):** Includes **IBA** (Indole-3-butyric acid) and **NAA** (1-Naphthaleneacetic acid). These signal the plant to stop leaf production and start growing roots.
-* **Gibberellins (Elongation):** Primarily **GA3**, used to stretch internodes if shoots are too clumped.
 
 ---
 
-## 2. The Three Stages of Micropropagation
+## The Setup
 
-
-### Stage I: Establishment (Initiation)
-* **Goal:** Successfully transition a sterile piece of plant tissue (explant) into the media.
-* **Chemistry:** High Cytokinin to Low Auxin ratio (typically **10:1**) to "wake up" the tissue.
-
-### Stage II: Multiplication (Cloning)
-* **Goal:** Break apical dominance to force the production of multiple side-shoots.
-* **Chemistry:** Increase or maintain high Cytokinin levels. One plant can be divided into many every 4–6 weeks.
-
-
-### Stage III: Rooting (Independence)
-* **Goal:** Trigger the base of the shoots to grow roots for soil survival.
-* **Chemistry:** Flip the ratio to Low Cytokinin and High Auxin (**1:10**).
+- 1x Digital Scale
+- Microwave Safe Glass Measuring Cups
+- 1L Distilled Water
+- 10 50ml Plastic Centrifuge Tubes with Screw Cap
+- 1x [Plants in Jar Starter Kit](https://plantsinjars.shop/products/starter-kit)
 
 ---
 
-## 3. Standard Media Formulations (Per 1 Liter)
-A consistent base provides life support while hormones provide the instructions.
 
-| Ingredient | Amount | Purpose |
-| :--- | :--- | :--- |
-| **MS Salts** | 4.44g | Baseline nutrients and vitamins. |
-| **Sucrose** | 30.00g | Carbon/energy source (replaces photosynthesis). |
-| **Agar** | 7.00g | Gelling agent to hold the plant upright. |
-| **pH** | 5.7 | Critical for nutrient bioavailability. |
+## The Recipe (100ml)
 
-> **Pro-Tip:** For the Rooting Stage, many protocols reduce **MS Salts to 2.22g** (Half-Strength) to encourage the plant to search for nutrients by growing more roots.
+Sterlizing the media is **very** important, but busting out a pressure cooker might be too much. We will use microwave sterlization for this run. If it fails then we will look into a more proper setup.
 
----
+This first batch will be a small artisanal brew for testing purposes. Each tube will get 10ml of media solution.
 
-## 4. Sterilization Protocols
-
-### Explant Surface Sterilization (The 10% Bleach Bath)
-1.  **Solution:** Mix 1 part household bleach with 9 parts water (**1:9 ratio**).
-2.  **Surfactant:** Add a small drop of dish soap to help the solution penetrate crevices.
-3.  **Agitation:** Soak tissue for 10–30 minutes depending on size (Monstera nodes need longer than Petunia leaves).
-4.  **Rinse:** Rinse the tissue 3 times in sterile water before placing it in the jar.
+- 
 
 
-### Aseptic Technique
-* **Tools:** Spray all scissors and forceps with **70% alcohol** between every cut.
-* **Environment:** Work only in a Still Air Box (SAB) or Flow Hood.
-* **Media Sterility:** Pressure cook all media at **15 PSI for 15 minutes**.
 
 ---
 
-## 5. Species-Specific Modifications
 
-| Protocol | Explant | Primary Hormones (Stage I & II) | Notes |
-| :--- | :--- | :--- | :--- |
-| **General Houseplant** | Node | 1.0mg BAP / 0.1mg IBA | Great starting point for Pothos/Philodendron. |
-| **Monstera** | Node | 5.0mg BAP / 0.1mg NAA | Requires very high BAP to overcome dormancy. |
-| **Petunia** | Leaf | 1.0mg BAP (No Auxin) | Direct organogenesis from leaf halves. |
+## First Run
+
 
 ---
 
-## 6. Troubleshooting (Debugging Growth)
-* **Browning/Oxidation:** If tissue ends turn brown, trim 0.5 cm off with a sterile blade before subculturing.
-* **Vitrification:** If plants look "glassy" or water-logged, increase the Agar concentration to 8.0g.
-* **Persistent Mold:** Increase the initial soap wash or add 5–10 minutes to the bleach soak time.
+
+## Results
+
+### Check back soon!
 
 ---
 
-## Alternative Sterilization Methods
 
-### The Microwave Process:
-- [Making Tissue Culture Media In The Microwave?](https://www.youtube.com/watch?v=SvlgMtwYVyQ)
+## Lessons Learned
 
-1. **Containers:** 4 oz polypropylene cups are used. Glass flasks can also be used as long as they have no metal [01:05].
-
-2. **Settings:** The lids must be left loose to prevent melting. The presenter runs the microwave at 50% power for 5 minutes, though this varies based on microwave wattage and cup size [02:03].
-
-3. **Efficiency:** The microwave sterilized 50 cups in about 25 minutes total (across three batches), whereas a large pressure cooker would take approximately 2 hours for a similar volume [02:23].
-
----
-
-## Resources
-- https://plantsinjars.shop/pages/protocol-documents
+### Check back soon!
