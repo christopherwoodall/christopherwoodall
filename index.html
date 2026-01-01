@@ -10,21 +10,43 @@ title: Welcome
   </p>
 </section>
 
+<hr>
+
 <section>
   <h2>Recent Posts</h2>
   
   {% assign blog_posts = site.notes | where: "layout", "post" | sort: "date" | reverse %}
+  {% assign max = site.max_articles | default: 10 %}
 
   <ul class="post-list">
-    {% for post in blog_posts %}
-      <li>
-        <a href="{{ post.url | relative_url }}">
-          {{ post.title | default: post.relative_path }}
-        </a>
-        <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
-      </li>
+    {% if site.summarize == true %}
+      {% for post in blog_posts limit: max %}
+        <li style="flex-direction: column; align-items: flex-start; margin-bottom: 25px;">
+          <div style="display: flex; justify-content: space-between; width: 100%; align-items: baseline;">
+            <a href="{{ post.url | relative_url }}" class="topic-link" style="font-weight: bold;">
+              {{ post.title | default: post.relative_path }}
+            </a>
+            <span class="post-date">{{ post.date | date: "%Y.%m.%d" }}</span>
+          </div>
+          <div class="post-excerpt" style="margin-top: 8px; font-size: 0.9rem; opacity: 0.8; line-height: 1.5;">
+            {{ post.excerpt | strip_html | truncatewords: 35 }}
+            <a href="{{ post.url | relative_url }}" style="color: #bb9af7; font-size: 0.8rem; margin-left: 5px;">[Read More]</a>
+          </div>
+        </li>
+      {% endfor %}
     {% else %}
+      {% for post in blog_posts %}
+        <li>
+          <a href="{{ post.url | relative_url }}">
+            {{ post.title | default: post.relative_path }}
+          </a>
+          <span class="post-date">{{ post.date | date: "%Y.%m.%d" }}</span>
+        </li>
+      {% endfor %}
+    {% endif %}
+
+    {% if blog_posts.size == 0 %}
       <li><small>No posts tagged with <em>layout: post</em> yet.</small></li>
-    {% endfor %}
+    {% endif %}
   </ul>
 </section>
