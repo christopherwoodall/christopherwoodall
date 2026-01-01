@@ -5,7 +5,7 @@ date: 2025-12-29
 tags: [ "github", "pages", "jekyll" ]
 ---
 
-# Notes on Jekyll and Github Pages
+# Configuring Jekyll
 
 In order to enable Jekyll add a [`_config.yaml`](https://docs.github.com/en/pages/quickstart) to the root of your repository.
 
