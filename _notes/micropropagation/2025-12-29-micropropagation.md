@@ -18,6 +18,7 @@ Another fascination of mine is artificial reward systems - like in game economie
 
 - 1x Digital Scale
 - Microwave Safe Glass Measuring Cups
+- 1x Bottle Bleach
 - 100ml Distilled Water
 - 10 50ml Plastic Centrifuge Tubes with Screw Cap
 - 1x [Plants in Jar Starter Kit](https://plantsinjars.shop/products/starter-kit)
@@ -68,7 +69,7 @@ This first batch will be a small artisanal brew for testing purposes. Each tube 
 
 ## First Run
 
-Next we monitor the tubes for 24 hours. Tubes should be clear. If there is any sign of discoloration or fuzziness it indicates a failed sanitization process and we will need to adjust our sterilization method.
+Next we monitor the tubes for 24 hours. Tubes should be clear. If there is any sign of discoloration or fuzziness that indicates a failed sanitization process and we will need to adjust our sterilization technique.
 
 #### Initial Pour (0 Hours)
 ![Initial Pour](/assets/notes/micropropagation/2025-12-29-micropropagation/2025-12-29-micropropagation-initial-pour.jpg)
@@ -85,4 +86,4 @@ Next we monitor the tubes for 24 hours. Tubes should be clear. If there is any s
 
 ## Lessons Learned
 
-### Check back soon!
+- For this run I did not have a pH meter so I was not able to adjust the pH. This is critical for future runs.
