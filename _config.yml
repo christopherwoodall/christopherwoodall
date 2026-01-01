@@ -10,7 +10,9 @@ remote_theme: pages-themes/minimal@v0.2.0
 is_project_page: false
 show_downloads: false
 
-# Sidebar Settings
+# Custom Settings
+summarize: true
+## Sidebar Settings
 github_username: christopherwoodall
 linkedin_username: 
 twitter_username: telepathicpug

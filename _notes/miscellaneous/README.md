@@ -1,10 +1,11 @@
 ---
 layout: default
-title: Birds
-tags: birds
+title: "Miscellaneous Musimgs"
+date: 2025-12-30
+tags: [ "miscellaneous" ]
 ---
 
-## Bird Stuff
+# Thoughts with no home
 
 {% assign current_path = page.path | split: "/" %}
 {% assign current_dir = current_path[1] %}
