@@ -18,7 +18,7 @@ Another fascination of mine is artificial reward systems - like in game economie
 
 - 1x Digital Scale
 - Microwave Safe Glass Measuring Cups
-- 1x Bottle Bleach
+- 1x Bottle Bleach (6%)
 - 100ml Distilled Water
 - 10 50ml Plastic Centrifuge Tubes with Screw Cap
 - 1x [Plants in Jar Starter Kit](https://plantsinjars.shop/products/starter-kit)
@@ -39,30 +39,30 @@ This first batch will be a small artisanal brew for testing purposes. Each tube 
 - 0.05ml BAP (1mg/ml)
 - 0.01ml NAA (1mg/ml)
 - 0.70g Agar
-- 0.04ml Bleach(6%)
+- 0.40ml Bleach (see table below for dilution instructions)
 
 ### Process
-1. Combine the MS powder, sucrose, and hormone stocks (BAP and NAA) in approximately 80 mL of distilled water.
+1. Combine Agar, MS powder and hormone stocks (BAP and NAA) in approximately 75ml of distilled water.
 
-2. Stir until fully dissolved.
+2. Stir until all dry ingredients are suspended.
 
-3. Adjust pH to 5.7: This step is critical; if the pH is incorrect, the bleach will not effectively sterilize the media or may become toxic to the plants.
+3. Add distilled water until the total volume reaches exactly 100 ml.
 
-4. Add distilled water until the total volume reaches exactly 100 mL.
-
-5. Add the agar to the mixture.
+4. Adjust the pH to 6. This step is critical; if the pH is incorrect, the bleach will not effectively sterilize the media or may become toxic to the plants.
 
 5. Heat the solution (microwave or stovetop) just until it boils and the liquid becomes transparent.
 
-6. Add 0.4mL of a 1:10 diluted bleach solution (created by mixing 1ml fresh bleach with 9ml water).
+6. Remove solution from the heat source.
 
-7. Swirl vigorously for 30 seconds to ensure the chlorine is evenly distributed.
+7. Stir in sucrose until fully dissolved. 
 
-8. Quickly dispense 10 mL of the liquid media into each of your 10 tubes.
+8. Add 0.4ml of a 1:10 diluted bleach solution (created by mixing 1ml fresh bleach with 9ml water). Mix vigorously for 30 seconds.
 
-9. Leave the caps slightly loose for 15 minutes. This "off-gassing" period allows excess chlorine gas to escape, preventing chemical damage to your plant tissue.
+9. Quickly dispense 10 ml of the liquid media into each tube.
 
-10. Tighten the caps once the media has gelled. 
+10. Leave the caps loose for 10 minutes. This "off-gassing" period allows excess gasses to escape, preventing chemical damage to your explant.
+
+11. Tighten the caps once the media has gelled.
 
 ---
 
@@ -79,7 +79,44 @@ Next we monitor the tubes for 24 hours. Tubes should be clear. If there is any s
 
 ## Results
 
-### Check back soon!
+We are using [African Violet](https://en.wikipedia.org/wiki/Saintpaulia) leaves and [Polka Dot Begonia](https://en.wikipedia.org/wiki/Begonia_maculata) leaves for this first run. The leaves were surface sterilized with a 10% bleach solution for 10 minutes, then rinsed three times with distilled water.
+
+![Polka Dot Begonia](/assets/notes/micropropagation/2025-12-29-micropropagation/2025-12-29-micropropagation-begonia.jpg)
+
+Both the leaves and nodes of the begonia will be used for estiblishment. For the African Violet we will use only leaf sections. The African Violet sample was taken from a healthy parent plant but the leaves are older and may not respond as well.
+
+![African Violet](/assets/notes/micropropagation/2025-12-29-micropropagation/2025-12-29-micropropagation-african-violet.jpg)
+
+---
+
+## Notes and Tables
+
+### Media Scaling Table (0.003% Chlorine Target)
+| Ingredient | 100ml Batch | 500ml Batch | 1L Batch |
+| :--- | :---: | :---: | :---: |
+| **Distilled Water** | 100ml | 500ml | 1,000ml |
+| **MS Medium Powder** | 0.45g | 2.22g | 4.43g |
+| **Sucrose (Sugar)** | 3.00g | 15.00g | 30.00g |
+| **BAP (1mg/ml)** | 0.05ml | 0.25ml | 0.50ml |
+| **NAA (1mg/ml)** | 0.01ml | 0.05ml | 0.10ml |
+| **Agar** | 0.70g | 3.50g | 7.00g |
+| **1:10 Bleach Dilution** | **0.40ml** | **2.00ml** | **4.00ml** |
+
+### 1:10 Bleach Stock Solution Scaling Table
+This table is for creating the **1:10 Bleach Dilution** used in the media sterilization process. This stock solution is used to precisely measure the small amounts of chlorine required to reach the **0.003%** active chlorine target for the culture media.
+
+| Desired Stock Volume | Household Bleach (6%) | Distilled Water |
+| :--- | :---: | :---: |
+| **10 mL** | 1 mL | 9 mL |
+| **50 mL** | 5 mL | 45 mL |
+| **100 mL** | 10 mL | 90 mL |
+
+### Procedural Reminders
+- **Safety First**: Be smart. Do this in a well-ventilated area and wear gloves and eye protection when handling bleach.
+- **pH Adjustment**: Aim for a pH of **6.0 ± 1** for this method
+- **Bleach Timing**: Add the bleach dilution **after** the agar has been heated and dissolved, but while the liquid is still hot to ensure distribution.
+- **"Gas-Off"**: Leave caps loose for **10 minutes** in a sterile workspace to allow excess chlorine to volatilize.
+- **Verification Period**: Allow the media to sit for **24-48 hours** before inoculation to ensure no visible microorganism growth appears.
 
 ---
 
@@ -87,3 +124,5 @@ Next we monitor the tubes for 24 hours. Tubes should be clear. If there is any s
 ## Lessons Learned
 
 - For this run I did not have a pH meter so I was not able to adjust the pH. This is critical for future runs.
+
+- It would be beneficial if the sucrose could be added after microwaving to prevent breakdowns.
