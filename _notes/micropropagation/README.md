@@ -52,18 +52,6 @@ A consistent base provides life support while hormones provide the instructions.
 
 ## Sterilization Protocols
 
-### Aseptic Technique
-* **Tools:** Spray all scissors and forceps with **70% alcohol** between every cut.
-* **Environment:** Work only in a Still Air Box (SAB) or Flow Hood.
-* **Media Sterility:** Pressure cook all media at **15 PSI for 15 minutes**.
-
-
-### Explant Surface Sterilization (The 10% Bleach Bath)
-1.  **Solution:** Mix 1 part household bleach with 9 parts water (**1:9 ratio**).
-2.  **Surfactant:** Add a small drop of dish soap to help the solution penetrate crevices.
-3.  **Agitation:** Soak tissue for 10–30 minutes depending on size (Monstera nodes need longer than Petunia leaves).
-4.  **Rinse:** Rinse the tissue 3 times in sterile water before placing it in the jar.
-
 
 ### Alternative Sterilization Methods
 
