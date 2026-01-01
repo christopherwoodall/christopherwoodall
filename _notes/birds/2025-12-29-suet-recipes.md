@@ -5,8 +5,6 @@ date: 2025-12-29
 tags: [ notes, birds ]
 ---
 
-# Trial and Error
-
 The below outlines both recipes and experience making suet cakes at home. I tried various combinations of ingredients in order to see what holds up best.
 
 These go fast so finding a more economic, durable, and safe recipe is the goal.
