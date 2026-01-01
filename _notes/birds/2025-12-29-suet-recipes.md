@@ -31,7 +31,7 @@ These go fast so finding a more economic, durable, and safe recipe is the goal.
 ### Results
 The agar agar mixture set well and produced firm suet cakes. Birds seemed to enjoy them, and they held up well in outdoor conditions, although they were a bit softer than traditional suet.
 
-![Agar Agar Suet Cakes](/assets/_notes/birds/2025-12-29-suet-recipes/agar-suet.jpg)
+![Agar Agar Suet Cakes](/assets/notes/birds/2025-12-29-suet-recipes/agar-suet.jpg)
 
 ---
 
@@ -52,7 +52,7 @@ The agar agar mixture set well and produced firm suet cakes. Birds seemed to enj
 ### Results
 The pectin mixture lacked firmness. The suet cakes did not hold together and crumbled apart. Birds seemed to enjoy them, but they did not last as long in outdoor conditions.
 
-![Pectin Suet Cakes](/assets/_notes/birds/2025-12-29-suet-recipes/pectin-suet.jpg)
+![Pectin Suet Cakes](/assets/notes/birds/2025-12-29-suet-recipes/pectin-suet.jpg)
 
 ---
 
