@@ -1,12 +1,11 @@
 ---
 layout: post
-title: "Suet Recipes - Trial and Error"
+title: "Suet Recipes"
 date: 2025-12-29
 tags: [ notes, birds ]
 ---
 
-# Suet Recipes
-## Trial and Error
+# Trial and Error
 
 The below outlines both recipes and experience making suet cakes at home. I tried various combinations of ingredients in order to see what holds up best.
 
