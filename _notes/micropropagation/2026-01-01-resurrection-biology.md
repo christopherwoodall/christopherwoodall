@@ -21,7 +21,7 @@ Beyond physical desiccation, chemical dormancy can also be broken. Revitalizing 
 
 ---
 
-The most interesting part about this is not the chemical itself but its discovery. It starts in the 1930s with a fungal disease affecting rice plants in Japan, colloquially known as [Foolish Seedling Disease](https://en.wikipedia.org/wiki/Bakanae). The fungus, [*Gibberella fujikuroi*](https://en.wikipedia.org/wiki/Gibberella_fujikroi), induces an over production of [gibberellic acid](https://en.wikipedia.org/wiki/Gibberellic_acid) in the host - causing it to grow excessively tall, spindly, and weak.
+The most interesting part about this is not the chemical itself but its discovery. It starts in the 1930s with a fungal disease affecting rice plants in Japan, colloquially known as [Foolish Seedling Disease](https://en.wikipedia.org/wiki/Bakanae). The fungus, [*Gibberella fujikuroi*](https://en.wikipedia.org/wiki/Gibberella_fujikroi), induces an overproduction of [gibberellic acid](https://en.wikipedia.org/wiki/Gibberellic_acid) in the host - causing it to grow excessively tall, spindly, and weak.
 
 ---
 
