@@ -61,15 +61,17 @@ This first batch will be a small artisanal brew for testing purposes. Each tube 
 
 9. Leave the caps slightly loose for 15 minutes. This "off-gassing" period allows excess chlorine gas to escape, preventing chemical damage to your plant tissue.
 
-10. Tighten the caps once the media has gelled.
-
-11. Monitor the tubes for 24 hours. Tubes should be clear. Any discolorationsnor fuzziness indicates a failed sanitization process. 
+10. Tighten the caps once the media has gelled. 
 
 ---
 
 
 ## First Run
 
+Next we monitor the tubes for 24 hours. Tubes should be clear. If there is any sign of discoloration or fuzziness it indicates a failed sanitization process and we will need to adjust our sterilization method.
+
+#### Initial Pour (0 Hours)
+![Initial Pour](/assets/_notes/micropropagation/2025-12-29-micropropagation/2025-12-29-micropropagation-initial-pour.jpg)
 
 ---
 
