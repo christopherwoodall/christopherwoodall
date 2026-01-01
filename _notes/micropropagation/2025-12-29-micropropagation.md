@@ -77,22 +77,21 @@ Next we monitor the tubes for 24 hours. Tubes should be clear. If there is any s
 
 **Author's Note**: It was at this point they realized that they had only added 0.04ml of bleach solution instead of 0.4ml. Because of this 5 were planted and 5 were left as controls to see the difference in contamination rates.
 
-![Planted Tube](/assets/notes/micropropagation/2025-12-29-micropropagation/2025-12-29-micropropagation-planted-tube.jpg)
-
 ---
 
 
 ## Results
 
-We are using [African Violets](https://en.wikipedia.org/wiki/Saintpaulia) and [Polka Dot Begonias](https://en.wikipedia.org/wiki/Begonia_maculata) for this first run. The leaves were surface sterilized with a 10% bleach solution for 10 minutes, then rinsed with distilled water.
+We are using [Polka Dot Begonias](https://en.wikipedia.org/wiki/Begonia_maculata) for this first run. The leaves were surface sterilized with a 10% bleach solution for 10 minutes, then rinsed with distilled water.
 
 ![Polka Dot Begonia](/assets/notes/micropropagation/2025-12-29-micropropagation/2025-12-29-micropropagation-begonia.jpg)
 
-Both the leaves and nodes of the begonia will be used for estiblishment. For the African Violet we will use only leaf sections. The African Violet sample was taken from a healthy parent plant but the leaves are older and may not respond as well.
+Both the leaves and nodes of the begonia will be used for estiblishment.
 
-![African Violet](/assets/notes/micropropagation/2025-12-29-micropropagation/2025-12-29-micropropagation-african-violet.jpg)
+![Planted Tube](/assets/notes/micropropagation/2025-12-29-micropropagation/2025-12-29-micropropagation-planted-tube.jpg)
 
 ---
+
 
 ## Notes and Tables
 
