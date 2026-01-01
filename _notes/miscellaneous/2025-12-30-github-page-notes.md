@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Configuring Jekyll and Github Pages"
-date: 2025-12-29
+date: 2025-12-30
 tags: [ "github", "pages", "jekyll" ]
 ---
 
