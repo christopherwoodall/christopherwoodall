@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "Micropropagation"
+title: "Tissue Culture Experiments"
 date: 2025-12-29
 tags: [ "micropropagation", "tissue culture" ]
 ---
-
-# Tissue Culture
 
 Plant propagation has always been fascinating. From the [Nuclear Gardens](https://en.wikipedia.org/wiki/Atomic_gardening) and [Rio Red Grapefruit](https://www.nytimes.com/2007/08/28/science/28crop.html) of the 1970s to the [glowing petunias](https://light.bio/) of today, there has always been something interesting about growing plants.
 
@@ -16,19 +14,19 @@ Another fascination of mine is artificial reward systems - like in game economie
 
 ## The Setup
 
-- 1x Digital Scale
+- Digital Scale
 - Microwave Safe Glass Measuring Cups
-- 1x Bottle Bleach (6%)
-- 100ml Distilled Water
-- 10 50ml Plastic Centrifuge Tubes with Screw Cap
-- 1x [Plants in Jar Starter Kit](https://plantsinjars.shop/products/starter-kit)
+- 50ml Plastic Centrifuge Tubes with Screw Cap (10x)
+- Bleach (6%)
+- Distilled Water
+- [Plants in Jar Starter Kit](https://plantsinjars.shop/products/starter-kit)
 
 ---
 
 
 ## The Recipe (100ml)
 
-Sterlizing the media is **very** important, but busting out a pressure cooker might be too much. We will use a mixture of microwave and [chemical sterlization](https://academicjournals.org/journal/AJB/article-full-text-pdf/A50633F60394) for this run. If it fails then we will look into a more proper setup.
+Sterlizing the media is **very** important, but busting out a pressure cooker might be too much. We will use a mixture of [microwave](https://www.youtube.com/watch?v=SvlgMtwYVyQ) and [chemical sterlization](https://academicjournals.org/journal/AJB/article-full-text-pdf/A50633F60394) for this run. If it fails then we will look into a more proper setup.
 
 This first batch will be a small artisanal brew for testing purposes. Each tube will get 10ml of media solution.
 
