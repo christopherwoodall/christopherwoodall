@@ -72,6 +72,13 @@ Next we monitor the tubes for 24 hours. Tubes should be clear. If there is any s
 #### Initial Pour (0 Hours)
 ![Initial Pour](/assets/notes/micropropagation/2025-12-29-micropropagation/2025-12-29-micropropagation-initial-pour.jpg)
 
+#### After Innoculation Period (24 Hours)
+![After Innoculation Period](/assets/notes/micropropagation/2025-12-29-micropropagation/2025-12-29-micropropagation-after-24-hours.jpg)
+
+**Author's Note**: It was at this point they realized that they had only added 0.04ml of bleach solution instead of 0.4ml. Because of this 5 were planted and 5 were left as controls to see the difference in contamination rates.
+
+![Planted Tube](/assets/notes/micropropagation/2025-12-29-micropropagation/2025-12-29-micropropagation-planted-tube.jpg)
+
 ---
 
 
