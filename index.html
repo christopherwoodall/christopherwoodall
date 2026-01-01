@@ -10,8 +10,6 @@ title: Welcome
   </p>
 </section>
 
-<hr>
-
 <section>
   <h2>Recent Posts</h2>
   
@@ -29,7 +27,7 @@ title: Welcome
             <span class="post-date">{{ post.date | date: "%Y.%m.%d" }}</span>
           </div>
           <div class="post-excerpt" style="margin-top: 8px; font-size: 0.9rem; opacity: 0.8; line-height: 1.5;">
-            {{ post.excerpt | strip_html | truncatewords: 35 }}
+            {{ post.content | strip_html | truncate: 120 }}
             <a href="{{ post.url | relative_url }}" style="color: #bb9af7; font-size: 0.8rem; margin-left: 5px;">[Read More]</a>
           </div>
         </li>
