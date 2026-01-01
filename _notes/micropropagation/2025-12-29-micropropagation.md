@@ -42,7 +42,7 @@ This first batch will be a small artisanal brew for testing purposes. Each tube 
 - 0.40ml Bleach (see table below for dilution instructions)
 
 ### Process
-1. Combine Agar, MS powder and hormone stocks (BAP and NAA) in approximately 75ml of distilled water.
+1. Combine Agar, MS powder, and hormone stocks (BAP and NAA) in approximately 75ml of distilled water.
 
 2. Stir until all dry ingredients are suspended.
 
@@ -79,7 +79,7 @@ Next we monitor the tubes for 24 hours. Tubes should be clear. If there is any s
 
 ## Results
 
-We are using [African Violet](https://en.wikipedia.org/wiki/Saintpaulia) leaves and [Polka Dot Begonia](https://en.wikipedia.org/wiki/Begonia_maculata) leaves for this first run. The leaves were surface sterilized with a 10% bleach solution for 10 minutes, then rinsed three times with distilled water.
+We are using [African Violets](https://en.wikipedia.org/wiki/Saintpaulia) and [Polka Dot Begonias](https://en.wikipedia.org/wiki/Begonia_maculata) for this first run. The leaves were surface sterilized with a 10% bleach solution for 10 minutes, then rinsed with distilled water.
 
 ![Polka Dot Begonia](/assets/notes/micropropagation/2025-12-29-micropropagation/2025-12-29-micropropagation-begonia.jpg)
 
@@ -92,6 +92,7 @@ Both the leaves and nodes of the begonia will be used for estiblishment. For the
 ## Notes and Tables
 
 ### Media Scaling Table (0.003% Chlorine Target)
+
 | Ingredient | 100ml Batch | 500ml Batch | 1L Batch |
 | :--- | :---: | :---: | :---: |
 | **Distilled Water** | 100ml | 500ml | 1,000ml |
