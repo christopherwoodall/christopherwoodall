@@ -39,7 +39,10 @@ Anthropic recently released [Claude in Chrome](https://support.claude.com/en/art
 
 The model and prompt **really** make a difference here.
 
-![Browser Agent Screenshot](/assets/notes/agents/2026-01-02-browser-agent/2026-01-02-browser-agent.webm)
+<video autoplay loop muted playsinline style="width:100%;">
+  <source src="/assets/notes/agents/2026-01-02-browser-agent/2026-01-02-browser-agent.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
 
 The agent runs a simple ReACT loop allowing it to operate in cycles. It can call tools(like executing javascript) if the messages are formatted correctly.
 
@@ -51,7 +54,10 @@ We instruct the agent on the format for tool use in the system prompt, but it is
 
 Dispite all of that the agents still manages to do pretty well at some tasks - like finding posts or clicking on links. Though have no issues hallucinating or making mistakes.
 
-![Agent Success](/assets/notes/agents/2026-01-02-browser-agent/2026-01-02-browser-agent-success.webm)
+<video autoplay loop muted playsinline style="width:100%;">
+  <source src="/assets/notes/agents/2026-01-02-browser-agent/2026-01-02-browser-agent-success.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
 
 ---
 
@@ -63,7 +69,10 @@ A lot of this really does come down to good prompt engineering and model selecti
 For the sake of sciene I decided to ask a few models to reimagine my blog as if they were drunk. Below are the results.
 
 #### OpenAI GPT-5.2
-![OpenAI GPT-5.2 Intoxicated Bench](/assets/notes/agents/2026-01-02-browser-agent/2026-01-02-openai-gpt-5.2-intoxicated-bench.webm)
+<video autoplay loop muted playsinline style="width:100%;">
+  <source src="/assets/notes/agents/2026-01-02-browser-agent/2026-01-02-openai-gpt-5.2-intoxicated-bench.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
 
 #### Anthropic Claude Opus 4.5
 ![Claude Opus 4.5 Intoxicated Bench](/assets/notes/agents/2026-01-02-browser-agent/2026-01-02-claude-opus-4.5-intoxicated-bench.gif)
