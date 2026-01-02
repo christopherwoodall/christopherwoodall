@@ -73,10 +73,8 @@ Next we monitor the tubes for 24 hours. Tubes should be clear. If there is any s
 #### Initial Pour (0 Hours)
 ![Initial Pour](/assets/notes/micropropagation/2025-12-29-micropropagation/2025-12-29-micropropagation-initial-pour.jpg)
 
-#### After Innoculation Period (24 Hours)
+#### 24 Hours Later
 ![After Innoculation Period](/assets/notes/micropropagation/2025-12-29-micropropagation/2025-12-29-micropropagation-after-24-hours.jpg)
-
-**Author's Note**: It was at this point they realized that they had only added 0.05ml of bleach solution instead of 0.5ml. Because of this 5 were planted and 5 were left as controls to see the difference in contamination rates.
 
 ---
 
@@ -96,10 +94,11 @@ Both the leaves and nodes of the begonia will be used for establishment. For the
 
 ![African Violet](/assets/notes/micropropagation/2025-12-29-micropropagation/2025-12-29-micropropagation-african-violet.jpg)
 
-The first tubes were planted after 24 hours with begonia explants.
+The first tubes were planted after 24 hours of observation with begonia explants.
 
 ![Planted Tube](/assets/notes/micropropagation/2025-12-29-micropropagation/2025-12-29-micropropagation-planted-tube.jpg)
 
+**Author's Note**: It was at this point they realized that they had only added 0.05ml of bleach solution instead of 0.5ml. Because of this 5 were planted and 5 were left as controls to see the difference in contamination rates.
 
 ### 48 Hours Later
 
