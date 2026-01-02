@@ -5,7 +5,7 @@ date: 2026-01-02
 tags: [ "agents", "browser" ]
 ---
 
-Anthropic recently released [Claude in Chrome](https://support.claude.com/en/articles/12012173-getting-started-with-claude-in-chrome) and as a Firefox user I was a bit jealous. But hey we turn those feelings into action around here, so we put Claude to work writing [a simple browser agent](https://gist.github.com/christopherwoodall/ce8f1cbcbeba4489d7aed41c3144770e) that works in Firefox.
+Anthropic recently released [Claude in Chrome](https://support.claude.com/en/articles/12012173-getting-started-with-claude-in-chrome) and as a Firefox user I was a bit jealous. But here we turn those feelings into action, so we put Claude to work writing [a simple browser agent](https://gist.github.com/christopherwoodall/ce8f1cbcbeba4489d7aed41c3144770e) that works in Firefox.
 
 #### [Download it here](https://gist.github.com/christopherwoodall/ce8f1cbcbeba4489d7aed41c3144770e)
 
