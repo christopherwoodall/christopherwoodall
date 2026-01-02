@@ -82,13 +82,28 @@ Next we monitor the tubes for 24 hours. Tubes should be clear. If there is any s
 
 ## Results
 
-We are using [Polka Dot Begonias](https://en.wikipedia.org/wiki/Begonia_maculata) for this first run. The leaves were surface sterilized with a 10% bleach solution for 10 minutes, then rinsed with distilled water.
+We are using [African Violets](https://en.wikipedia.org/wiki/Saintpaulia) and [Polka Dot Begonias](https://en.wikipedia.org/wiki/Begonia_maculata) for this first run. The leaves were surface sterilized with a 10% bleach solution for 10 minutes, then rinsed with distilled water.
 
 ![Polka Dot Begonia](/assets/notes/micropropagation/2025-12-29-micropropagation/2025-12-29-micropropagation-begonia.jpg)
 
-Both the leaves and nodes of the begonia will be used for estiblishment.
+Both the leaves and nodes of the begonia will be used for estiblishment. For the African Violet we will use only leaf sections. The African Violet sample was taken from a healthy parent plant but the leaves are older and may not respond as well.
+
+![African Violet](/assets/notes/micropropagation/2025-12-29-micropropagation/2025-12-29-micropropagation-african-violet.jpg)
+
+The first tubes were planted after 24 hours with begonia explants.
 
 ![Planted Tube](/assets/notes/micropropagation/2025-12-29-micropropagation/2025-12-29-micropropagation-planted-tube.jpg)
+
+
+### 48 Hours Later
+
+After 48 hours there were no visible signs of contamination in the control tubes so they were innoculated with the african violet explants.
+
+[!African Violet Planted Tube](/assets/notes/micropropagation/2025-12-29-micropropagation/2025-12-29-micropropagation-african-violet-planted-tube.jpg)
+
+Now we wait.
+
+![48 Hours Later](/assets/notes/micropropagation/2025-12-29-micropropagation/2025-12-29-micropropagation-48-hours-later.jpg)
 
 ---
 
@@ -131,3 +146,5 @@ This table is for creating the **1:10 Bleach Dilution** used in the media steril
 - For this run I did not have a pH meter so I was not able to adjust the pH. This is critical for future runs.
 
 - It would be beneficial if the sucrose could be added after microwaving to prevent breakdowns.
+
+- A more controlled setting would be benificial for testing different recipes and techniques.
