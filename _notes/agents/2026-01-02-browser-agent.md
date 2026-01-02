@@ -18,7 +18,7 @@ Anthropic recently released [Claude in Chrome](https://support.claude.com/en/art
 
 1. Install [Tampermonkey](https://www.tampermonkey.net/) or a similar userscript manager.
 
-2. Create a new userscript and copy the code from [this gist](<https://gist.github.com/christopherwoodall/ce8f1cbcbeba4489d7aed41c3144770e).
+2. Create a new userscript and copy the code from [this gist](https://gist.github.com/christopherwoodall/ce8f1cbcbeba4489d7aed41c3144770e).
 
 ![Browser Agent Tampermonkey](/assets/notes/agents/2026-01-02-browser-agent/2026-01-02-browser-agent-tampermonkey.png)
 
@@ -48,11 +48,15 @@ The agent runs a simple ReACT loop allowing it to operate in cycles. It can call
 
 ![Agent ReACT Loop](/assets/notes/agents/2026-01-02-browser-agent/2026-01-02-browser-agent-react-loop.png)
 
-We instruct the agent on the format for tool use in the system prompt, but it is up to the model to follow it. We can see here how strict the extraction logic is.
+We instruct the agent on the format for tool use in the [system prompt](https://gist.github.com/christopherwoodall/ce8f1cbcbeba4489d7aed41c3144770e#file-browser-agent-tampermonkey-js-L17), but it is up to the model to follow those recommendations. We can see here how strict the extraction logic is.
 
 ![Agent Tool Use](/assets/notes/agents/2026-01-02-browser-agent/2026-01-02-browser-agent-tool-use.png)
 
-Dispite all of that the agents still manages to do pretty well at some tasks - like finding posts or clicking on links. Though have no issues hallucinating or making mistakes.
+Tool execution is pretty risky. In the example below there are no guards preventing the agent from running dangerous or injected code.
+
+![Agent Dangerous Tool Use](/assets/notes/agents/2026-01-02-browser-agent/2026-01-02-browser-agent-dangerous-tool-use.png)
+
+Despite all of that the agents still manages to do pretty well at some tasks - like finding posts or clicking on links. Though have no issues hallucinating or making mistakes.
 
 <video autoplay loop muted playsinline style="width:100%;">
   <source src="/assets/notes/agents/2026-01-02-browser-agent/2026-01-02-browser-agent-success.webm" type="video/webm">
