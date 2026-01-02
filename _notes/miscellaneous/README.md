@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Miscellaneous Musimgs"
+title: "Miscellaneous Musings"
 date: 2025-12-30
 tags: [ "miscellaneous" ]
 ---
