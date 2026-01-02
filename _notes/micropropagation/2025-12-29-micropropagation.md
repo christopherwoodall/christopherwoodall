@@ -105,7 +105,7 @@ The first tubes were planted after 24 hours with begonia explants.
 
 After 48 hours there were no visible signs of contamination in the control tubes so they were planted with the african violet explants.
 
-[!African Violet Planted Tube](/assets/notes/micropropagation/2025-12-29-micropropagation/2025-12-29-micropropagation-african-violet-planted-tube.jpg)
+![African Violet Planted Tube](/assets/notes/micropropagation/2025-12-29-micropropagation/2025-12-29-micropropagation-african-violet-planted-tube.jpg)
 
 Now we wait.
 
