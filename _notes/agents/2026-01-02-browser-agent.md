@@ -7,6 +7,8 @@ tags: [ "agents", "browser" ]
 
 Anthropic recently released [Claude in Chrome](https://support.claude.com/en/articles/12012173-getting-started-with-claude-in-chrome) and as a Firefox user I was a bit jealous. But hey we turn those feelings into action around here, so we put Claude to work writing [a simple browser agent](https://gist.github.com/christopherwoodall/ce8f1cbcbeba4489d7aed41c3144770e) that works in Firefox.
 
+#### [Download it here](https://gist.github.com/christopherwoodall/ce8f1cbcbeba4489d7aed41c3144770e)
+
 ---
 
 
@@ -29,14 +31,6 @@ Anthropic recently released [Claude in Chrome](https://support.claude.com/en/art
 ![Browser Agent Setup](/assets/notes/agents/2026-01-02-browser-agent/2026-01-02-browser-agent-setup.png)
 
 5. Head over to the "Chat" tab and enter a message to get started!
-
-### Example Usage
-- "Find the first link on this page and click it."
-- "Scroll to the bottom of the page."
-- "How many images are on this page?"
-- "Find all external links on this page and list them."
-
-#### [Download it here](https://gist.github.com/christopherwoodall/ce8f1cbcbeba4489d7aed41c3144770e)
 
 ---
 
