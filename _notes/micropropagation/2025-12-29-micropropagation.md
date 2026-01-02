@@ -7,7 +7,7 @@ tags: [ "micropropagation", "tissue culture" ]
 
 Plant propagation has always been fascinating. From the [Nuclear Gardens](https://en.wikipedia.org/wiki/Atomic_gardening) and [Rio Red Grapefruit](https://www.nytimes.com/2007/08/28/science/28crop.html) of the 1970s to the [glowing petunias](https://light.bio/) of today, there has always been something interesting about growing plants.
 
-Another fascination of mine is artificial reward systems - like in game economies. From ["Destroying the Economy on Minecraft's WORST Pay-to-Win Server"](https://www.youtube.com/watch?v=kKvAo9rzv5g) to ["How the Runescape Economy Works! (and how to take advantage!)"](https://www.youtube.com/watch?v=wYvsxgTzQTU) fake incentive markets are my version of murder mystery podcasts. So when a video entitled ["I accidentally crashed the rare plant market "](https://www.youtube.com/watch?v=7dk3uSLxMI4) came across my feed it peaked my interests. Enough so to invest in a [kit](https://plantsinjars.shop/) and try it myself.
+Another fascination of mine is artificial reward systems - like in game economies. From ["Destroying the Economy on Minecraft's WORST Pay-to-Win Server"](https://www.youtube.com/watch?v=kKvAo9rzv5g) to ["How the Runescape Economy Works! (and how to take advantage!)"](https://www.youtube.com/watch?v=wYvsxgTzQTU) fake incentive markets are my version of murder mystery podcasts. So when a video entitled ["I accidentally crashed the rare plant market "](https://www.youtube.com/watch?v=7dk3uSLxMI4) came across my feed it piqued my interests. Enough so to invest in a [kit](https://plantsinjars.shop/) and try it myself.
 
 
 ---
@@ -15,6 +15,7 @@ Another fascination of mine is artificial reward systems - like in game economie
 ## The Setup
 
 - Digital Scale
+- pH Meter and Solution
 - Microwave Safe Glass Measuring Cups
 - 50ml Plastic Centrifuge Tubes with Screw Cap (10x)
 - Bleach (6%)
@@ -26,18 +27,18 @@ Another fascination of mine is artificial reward systems - like in game economie
 
 ## The Recipe (100ml)
 
-Sterlizing the media is **very** important, but busting out a pressure cooker might be too much. We will use a mixture of [microwave](https://www.youtube.com/watch?v=SvlgMtwYVyQ) and [chemical sterlization](https://academicjournals.org/journal/AJB/article-full-text-pdf/A50633F60394) for this run. If it fails then we will look into a more proper setup.
+Sterilizing the media is **very** important, but busting out a pressure cooker might be too much. We will use a mixture of [microwave](https://www.youtube.com/watch?v=SvlgMtwYVyQ) and [chemical sterilization](https://academicjournals.org/journal/AJB/article-full-text-pdf/A50633F60394) for this run. If it fails then we will look into a more proper setup.
 
-This first batch will be a small artisanal brew for testing purposes. Each tube will get 10ml of media solution.
+This first batch will be a small test brew for testing purposes. Each tube will get 10ml of media solution.
 
 ### Ingredients
 - 100ml Distilled Water
 - 0.45g MS Medium
-- 3.00g Sugar
+- 3.00g Sucrose (Sugar)
 - 0.05ml BAP (1mg/ml)
 - 0.01ml NAA (1mg/ml)
 - 0.70g Agar
-- 0.40ml Bleach (see table below for dilution instructions)
+- 0.5ml Bleach (see table below for dilution instructions)
 
 ### Process
 1. Combine Agar, MS powder, and hormone stocks (BAP and NAA) in approximately 75ml of distilled water.
@@ -54,7 +55,7 @@ This first batch will be a small artisanal brew for testing purposes. Each tube 
 
 7. Stir in sucrose until fully dissolved. 
 
-8. Add 0.4ml of a 1:10 diluted bleach solution (created by mixing 1ml fresh bleach with 9ml water). Mix vigorously for 30 seconds.
+8. Add 0.5ml of a 1:10 diluted bleach solution (created by mixing 1ml fresh bleach with 9ml water). Mix vigorously for 30 seconds.
 
 9. Quickly dispense 10 ml of the liquid media into each tube.
 
@@ -75,18 +76,23 @@ Next we monitor the tubes for 24 hours. Tubes should be clear. If there is any s
 #### After Innoculation Period (24 Hours)
 ![After Innoculation Period](/assets/notes/micropropagation/2025-12-29-micropropagation/2025-12-29-micropropagation-after-24-hours.jpg)
 
-**Author's Note**: It was at this point they realized that they had only added 0.04ml of bleach solution instead of 0.4ml. Because of this 5 were planted and 5 were left as controls to see the difference in contamination rates.
+**Author's Note**: It was at this point they realized that they had only added 0.05ml of bleach solution instead of 0.5ml. Because of this 5 were planted and 5 were left as controls to see the difference in contamination rates.
 
 ---
 
 
 ## Results
 
-We are using [African Violets](https://en.wikipedia.org/wiki/Saintpaulia) and [Polka Dot Begonias](https://en.wikipedia.org/wiki/Begonia_maculata) for this first run. The leaves were surface sterilized with a 10% bleach solution for 10 minutes, then rinsed with distilled water.
+**Explant Sources:** African Violet (*Saintpaulia*) leaf sections and Polka Dot Begonia (*Begonia maculata*) leaves and nodes.
+
+**Surface Sterilization Protocol:**
+* 10-minute soak in 10% bleach dilution (0.6% active chlorine)
+* Triple rinse with sterile distilled water
+* Dissection performed in makeshift sterile field
 
 ![Polka Dot Begonia](/assets/notes/micropropagation/2025-12-29-micropropagation/2025-12-29-micropropagation-begonia.jpg)
 
-Both the leaves and nodes of the begonia will be used for estiblishment. For the African Violet we will use only leaf sections. The African Violet sample was taken from a healthy parent plant but the leaves are older and may not respond as well.
+Both the leaves and nodes of the begonia will be used for establishment. For the African Violet we will use only leaf sections. The African Violet sample was taken from a healthy parent plant but the leaves are older and may not respond as well.
 
 ![African Violet](/assets/notes/micropropagation/2025-12-29-micropropagation/2025-12-29-micropropagation-african-violet.jpg)
 
@@ -97,7 +103,7 @@ The first tubes were planted after 24 hours with begonia explants.
 
 ### 48 Hours Later
 
-After 48 hours there were no visible signs of contamination in the control tubes so they were innoculated with the african violet explants.
+After 48 hours there were no visible signs of contamination in the control tubes so they were planted with the african violet explants.
 
 [!African Violet Planted Tube](/assets/notes/micropropagation/2025-12-29-micropropagation/2025-12-29-micropropagation-african-violet-planted-tube.jpg)
 
@@ -120,10 +126,10 @@ Now we wait.
 | **BAP (1mg/ml)** | 0.05ml | 0.25ml | 0.50ml |
 | **NAA (1mg/ml)** | 0.01ml | 0.05ml | 0.10ml |
 | **Agar** | 0.70g | 3.50g | 7.00g |
-| **1:10 Bleach Dilution** | **0.40ml** | **2.00ml** | **4.00ml** |
+| **1:10 Bleach Dilution** | **0.50ml** | **2.00ml** | **4.00ml** |
 
-### 1:10 Bleach Stock Solution Scaling Table
-This table is for creating the **1:10 Bleach Dilution** used in the media sterilization process. This stock solution is used to precisely measure the small amounts of chlorine required to reach the **0.003%** active chlorine target for the culture media.
+### 1:10 Bleach Stock Solution Scaling Table (0.6% Final Concentration)
+This table is for creating the **1:10 Bleach Dilution** used in the media sterilization process. This stock solution is used to precisely measure the small amounts of chlorine required to reach the **~0.003%** active chlorine target for the culture media.
 
 | Desired Stock Volume | Household Bleach (6%) | Distilled Water |
 | :--- | :---: | :---: |
@@ -147,4 +153,4 @@ This table is for creating the **1:10 Bleach Dilution** used in the media steril
 
 - It would be beneficial if the sucrose could be added after microwaving to prevent breakdowns.
 
-- A more controlled setting would be benificial for testing different recipes and techniques.
+- A more controlled setting would be beneficial for testing different recipes and techniques.
