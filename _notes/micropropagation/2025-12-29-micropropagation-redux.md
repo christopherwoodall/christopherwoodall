@@ -21,13 +21,11 @@ The recipe is slightly modified but overall the same just doubled.
 * 1.2g Agar
 * 4g Sucrose
 
-**DO NOT** for get your ph meter!
+**DO NOT** forget your pH meter!
 
 ![pH Meter](/assets/notes/micropropagation/2026-01-05-micropropagation-redux/2026-01-05-micropropagation-redux-ph-meter.jpg)
 
-### Notes
-
-* Agar volume can be decresed to 1g for a less firm medium.
+**Notes:** Agar volume can be decreased to 1g for a less firm medium.
 
 ---
 
