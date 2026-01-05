@@ -25,6 +25,11 @@ The recipe is slightly modified but overall the same just doubled.
 
 ![pH Meter](/assets/notes/micropropagation/2026-01-05-micropropagation-redux/2026-01-05-micropropagation-redux-ph-meter.jpg)
 
+
+### Notes
+
+* Agar volume can be decresed to 1g for a less firm medium.
+
 ---
 
 
