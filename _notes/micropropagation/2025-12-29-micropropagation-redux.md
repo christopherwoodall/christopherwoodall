@@ -5,7 +5,7 @@ date: 2026-01-05
 tags: [ "micropropagation", "tissue culture" ]
 ---
 
-This picks up from the previous post on tissue culture experiments - but this time I do it right (bought a pH meter).
+This picks up from the previous post on tissue culture experiments - but this time we do it right (bought a pH meter).
 
 ---
 
