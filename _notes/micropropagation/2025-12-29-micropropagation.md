@@ -110,6 +110,12 @@ Now we wait.
 
 ![48 Hours Later](/assets/notes/micropropagation/2025-12-29-micropropagation/2025-12-29-micropropagation-48-hours-later.jpg)
 
+### Week 1
+
+One of the begonia tubes showed signs of contamination after a week. The rest appear clean. We will be saving the contaminated tube for experiments with peracetic acid - we are ruining too many tshirts.
+
+![Week 1](/assets/notes/micropropagation/2025-12-29-micropropagation/2025-12-29-micropropagation-week-1.jpg)
+
 ---
 
 
