@@ -27,9 +27,9 @@ We used these [nursery pots with humidity domes](https://www.amazon.com/gp/aw/d/
 ![Nursery Pots with Humidity Domes](/assets/notes/micropropagation/2026-01-17-monstera-creme-brulee/2026-01-17-monstera-creme-brulee-nursery-pots.jpg)
 
 
-The humidity domes came with small ventilation holes so I made some [small caps](/assets/notes/micropropagation/2026-01-17-monstera-creme-brulee/2026-01-17-monstera-creme-brulee-humidity-dome-caps.stl) to put on top and 3D printed them out.
+The humidity domes came with small ventilation holes so I made some [small caps](/assets/notes/micropropagation/2026-01-17-monstera-creme-brulee/2026-01-17-monstera-creme-brulee-humidity-dome-cap-rev2.stl) to put on top and 3D printed them out.
 
-![Humidity Dome Caps](/assets/notes/micropropagation/2026-01-17-monstera-creme-brulee/2026-01-17-monstera-creme-brulee-humidity-dome-caps.png)
+![Humidity Dome Caps](/assets/notes/micropropagation/2026-01-17-monstera-creme-brulee/2026-01-17-monstera-creme-brulee-humidity-dome-cap-rev2.png)
 
 
 Here's how it looks with all of the caps on.
