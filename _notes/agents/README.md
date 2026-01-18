@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Birds
-tags: birds
+title: Agents
+tags: agents
 ---
 
-## Bird Stuff
+## Agent Stuff
 
 {% assign current_path = page.path | split: "/" %}
 {% assign current_dir = current_path[1] %}
