@@ -5,7 +5,7 @@ date: 2026-03-01
 tags: [ "micropropagation", "tissue culture", "gerber daisy" ]
 ---
 
-I recently bough a bouquet of flowers and was curious if I could propagate the gerber daisies in it using tissue culture. I landed on a great Youtube video [describing the process](https://youtu.be/CYwRNvtopYQ?si=to0KXw7Wqw_6ER-M) and decided to give it a try.
+I recently bought a bouquet of flowers and was curious if I could propagate the gerber daisies in it using tissue culture. I landed on a great Youtube video [describing the process](https://youtu.be/CYwRNvtopYQ?si=to0KXw7Wqw_6ER-M) and decided to give it a try.
 
 We started with the following specimen.
 
