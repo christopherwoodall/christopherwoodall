@@ -34,4 +34,11 @@ Finally the cut end of the section must be positioned directly inside the cultur
 
 ---
 
+## Resources 
+
+- [Dr. Ather Zaman - Micropropagation of Gerbera](https://www.youtube.com/watch?v=uQCnWLRKM88)
+- [Commercial Multiplication of Gerbera from Young Capitulum Explants](https://www.ijcmas.com/7-11-2018/R.%20Rashmi,%20et%20al.pdf)
+- [Effect of genotype, explant size, position, and culture medium on shoot generation of Gerbera jamesonii by receptacle transverse thin cell layer culture](https://www.researchgate.net/publication/222308907_Effect_of_genotype_explant_size_position_and_culture_medium_on_shoot_generation_of_Gerbera_jamesonii_by_receptacle_transverse_thin_cell_layer_culture)
+
+
 **NOTE:** The explants were sanitized in a 1:10 bleach solution for a few minutes before being placed in the growth media.
