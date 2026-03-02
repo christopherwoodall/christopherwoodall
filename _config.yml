@@ -23,3 +23,6 @@ collections:
   notes:
     output: true
     permalink: /notes/:path/
+  about:
+    output: true
+    permalink: /about/:path/
