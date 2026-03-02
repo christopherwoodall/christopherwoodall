@@ -21,7 +21,7 @@ The first part of the process is removing the petals and hairs. The petals are r
 
 ---
 
-Once the capitulum is exposed and cleaned, it is sectioned into pieces and placed in the growth media.
+Once the capitulum is exposed and cleaned, it is sectioned into pieces to create our explants. Each section should contain some part of the very middle of the capitulum, as this is where the meristematic tissue is located - which is responsible for cell division and growth.
 
 ![Capitulum](/assets/notes/micropropagation/2026-03-01-micropropagation-gerber-daisy/split-capitulum.jpg)
 
@@ -30,3 +30,8 @@ Once the capitulum is exposed and cleaned, it is sectioned into pieces and place
 Finally the cut end of the section must be positioned directly inside the culture media, and approximately 50% of the explant should be submerged within the media for optimal regeneration.
 
 ![Gerber Daisy Explants in Growth Media](/assets/notes/micropropagation/2026-03-01-micropropagation-gerber-daisy/capitulum-in-media.jpg)
+
+
+---
+
+**NOTE:** The explants were sanitized in a 1:10 bleach solution for a few minutes before being placed in the growth media.
