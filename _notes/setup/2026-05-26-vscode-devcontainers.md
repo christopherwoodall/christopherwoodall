@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Setting up devcontainers in VSCode"
-date: 2025-12-30
+date: 2026-05-26
 tags: [ "setup", "vscode", "devcontainers" ]
 ---
 
@@ -9,7 +9,7 @@ tags: [ "setup", "vscode", "devcontainers" ]
 
 Install [Docker Desktop](/notes/setup/2026-02-13-install-cuda-wsl/) and ensure it is running. Run `docker info` to verify it is installed and working.
 
-![Docker Desktop](./assets/2026-02-13-vscode-devcontainers/docker-desktop.png)
+![Docker Desktop](./assets/2026-05-26-vscode-devcontainers/docker-desktop.png)
 
 ---
 
@@ -17,7 +17,7 @@ Install [Docker Desktop](/notes/setup/2026-02-13-install-cuda-wsl/) and ensure i
 
 Search for "Dev Containers" in the VSCode extension marketplace. Ensure you install the version published by Microsoft.
 
-![VSCode Extension](./assets/2026-02-13-vscode-devcontainers/vscode-extension.png)
+![VSCode Extension](./assets/2026-05-26-vscode-devcontainers/vscode-extension.png)
 
 ---
 
