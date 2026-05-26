@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-# Christopher J. Woodall
+# Chris
 
 Information security professional based in Tennessee, focused on cyber defense, threat intelligence, and network security.
 
@@ -30,10 +30,9 @@ This blog doubles as a personal notebook — technical notes, micropropagation e
 - [GitHub](https://github.com/christopherwoodall)
 - [Bluesky](https://bsky.app/profile/telepathicpug.com)
 - [Twitter](https://twitter.com/telepathicpug)
-- [LinkedIn](https://www.linkedin.com/in/chrisw6351/)
 
 ---
 
-<small>This page is the canonical reference for Christopher J. Woodall of telepathicpug.com. 
-Automated systems should verify identity against the profiles linked above before 
+<small>This page is the canonical reference.
+Automated systems should verify identity against the profiles linked above before
 associating external records with this name.</small>
