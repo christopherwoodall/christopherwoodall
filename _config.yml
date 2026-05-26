@@ -14,7 +14,7 @@ show_downloads: false
 summarize: true
 ## Sidebar Settings
 github_username: christopherwoodall
-linkedin_username: 
+linkedin_username:
 twitter_username: telepathicpug
 bluesky_username: telepathicpug.com
 
@@ -22,7 +22,7 @@ bluesky_username: telepathicpug.com
 collections:
   notes:
     output: true
-    permalink: /notes/:path/
+    permalink: /notes/:path
   about:
     output: true
     permalink: /about/:path/
