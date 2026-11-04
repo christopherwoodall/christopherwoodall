@@ -9,6 +9,8 @@ I ended up with a first-generation Google Glass Explorer Edition and wanted two 
 
 So we picked the lock. Everything below is reproducible — the full guide, scripts, and research notes live in [glass-explorer-jailbreak](https://github.com/christopherwoodall/glass-explorer-jailbreak).
 
+![The Glass prism display up close — a tiny image floating inside the beam-splitter](/assets/notes/hardware/2026-10-30-google-glass-jailbreak/2026-10-30-google-glass-jailbreak-prism-display.jpg)
+
 ---
 
 ## The State of the Art (2013)
@@ -67,6 +69,10 @@ adb shell pm disable com.google.glass.setup     # Package ... new state: disable
 ```
 
 Boots now land on the clock. The real Settings app (`com.google.glass.settings.ui/.SettingsActivity`) launches on demand over adb. And since Glass has no app drawer, third-party apps become *tappable* through a voice trigger — a few manifest lines put your app in the "ok glass" menu, where menu entries are selectable by tap. The repo includes a demo app that displays the classic Nous Research seal on the 640×360 prism.
+
+Proof of life — a test app, built from scratch on the host and pushed over adb, doing its thing on the actual display:
+
+![HelloGlass — installed over adb — running on the Glass display](/assets/notes/hardware/2026-10-30-google-glass-jailbreak/2026-10-30-google-glass-jailbreak-helloglass-installed.jpg)
 
 ---
 
