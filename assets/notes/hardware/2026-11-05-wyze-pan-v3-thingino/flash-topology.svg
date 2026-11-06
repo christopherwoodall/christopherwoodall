@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#22d3ee"/>
+    </marker>
+    <marker id="arrg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="960" height="620" rx="14" fill="#0e1116"/>
+  <text x="24" y="40" fill="#e6edf3" font-size="19" font-weight="bold">thingino capture lab — how the camera ends up talking to a broker you own</text>
+  <text x="24" y="62" fill="#8b98a5" font-size="12">sanitized · no real addresses · the router is doing DNS, the laptop is doing everything else</text>
+
+  <!-- internet + home uplink -->
+  <rect x="700" y="92" width="216" height="64" rx="10" fill="#141a22" stroke="#2b3542"/>
+  <text x="724" y="118" fill="#e6edf3" font-size="14">internet</text>
+  <text x="724" y="138" fill="#8b98a5" font-size="12">real vendor cloud lives here</text>
+
+  <rect x="660" y="196" width="256" height="58" rx="10" fill="#141a22" stroke="#2b3542"/>
+  <text x="684" y="220" fill="#e6edf3" font-size="14">home router / uplink</text>
+  <text x="684" y="240" fill="#8b98a5" font-size="12">Wi-Fi · untouched by the lab</text>
+
+  <!-- tool host -->
+  <rect x="620" y="300" width="300" height="150" rx="10" fill="#10222a" stroke="#22d3ee"/>
+  <text x="644" y="330" fill="#22d3ee" font-size="15" font-weight="bold">tool host (laptop)</text>
+  <text x="644" y="354" fill="#c9d5e0" font-size="12.5">fake vendor broker :8883</text>
+  <text x="644" y="374" fill="#c9d5e0" font-size="12.5">payload server :8443 (diagnostic · thingino)</text>
+  <text x="644" y="394" fill="#c9d5e0" font-size="12.5">command center · snapshots · RTSP→MJPEG</text>
+  <text x="644" y="418" fill="#8b98a5" font-size="12">NAT: lab subnet → home uplink (pairing)</text>
+  <text x="644" y="436" fill="#8b98a5" font-size="12">verified stock backup lands here first</text>
+
+  <!-- openwrt ap -->
+  <rect x="330" y="300" width="240" height="150" rx="10" fill="#132230" stroke="#34d399"/>
+  <text x="354" y="330" fill="#34d399" font-size="15" font-weight="bold">openwrt lab AP</text>
+  <text x="354" y="354" fill="#c9d5e0" font-size="12.5">lab SSID for the camera (2.4 GHz)</text>
+  <text x="354" y="374" fill="#c9d5e0" font-size="12.5">dnsmasq: vendor hostnames → tool host</text>
+  <text x="354" y="394" fill="#c9d5e0" font-size="12.5">DHCP · NTP server (camera clock)</text>
+  <text x="354" y="418" fill="#8b98a5" font-size="12">default route → tool host (NAT)</text>
+
+  <!-- camera -->
+  <rect x="40" y="300" width="230" height="150" rx="10" fill="#1a1522" stroke="#f472b6"/>
+  <text x="64" y="330" fill="#f472b6" font-size="15" font-weight="bold">camera (pan v3)</text>
+  <text x="64" y="354" fill="#c9d5e0" font-size="12.5">stock vendor firmware</text>
+  <text x="64" y="374" fill="#c9d5e0" font-size="12.5">thinks it is talking to the cloud</text>
+  <text x="64" y="394" fill="#c9d5e0" font-size="12.5">accepts MQTT + OTA payloads</text>
+  <text x="64" y="418" fill="#8b98a5" font-size="12">secure boot: verified via patched SPL</text>
+
+  <!-- links -->
+  <line x1="270" y1="360" x2="326" y2="360" stroke="#22d3ee" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="272" y="348" fill="#22d3ee" font-size="11.5">① joins lab SSID</text>
+
+  <line x1="570" y1="360" x2="616" y2="360" stroke="#22d3ee" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="572" y="348" fill="#22d3ee" font-size="11.5">② ethernet</text>
+
+  <path d="M 620 322 C 560 240, 640 160, 696 152" stroke="#22d3ee" stroke-width="2" fill="none" marker-end="url(#arrg)"/>
+  <text x="500" y="216" fill="#94a3b8" font-size="11.5">uplink (NAT through tool host)</text>
+
+  <!-- numbered flows -->
+  <rect x="60" y="120" width="500" height="118" rx="10" fill="#131a24" stroke="#2b3542"/>
+  <text x="80" y="148" fill="#e6edf3" font-size="13" font-weight="bold">the capture, in order</text>
+  <text x="80" y="172" fill="#9fb3c8" font-size="12">① pair the camera on the lab SSID — needs real internet, so the</text>
+  <text x="80" y="190" fill="#9fb3c8" font-size="12">    tool host NATs the lab out the home uplink during pairing</text>
+  <text x="80" y="214" fill="#9fb3c8" font-size="12">② provisioned camera keeps its cloud session → DNS sends it to the tool host</text>
+
+  <rect x="60" y="478" width="500" height="118" rx="10" fill="#131a24" stroke="#2b3542"/>
+  <text x="80" y="506" fill="#e6edf3" font-size="13" font-weight="bold">then the flash</text>
+  <text x="80" y="530" fill="#9fb3c8" font-size="12">③ MQTT command → camera pulls a RAM-only diagnostic (exposes flash)</text>
+  <text x="80" y="548" fill="#9fb3c8" font-size="12">④ verified backup: every partition, read twice, byte-compared</text>
+  <text x="80" y="566" fill="#9fb3c8" font-size="12">⑤ thingino image written partition-by-partition, boot last → reboot</text>
+
+  <!-- flash arrows -->
+  <path d="M 240 470 C 260 430, 120 470, 150 456" stroke="#f472b6" stroke-width="2" fill="none" marker-end="url(#arr)"/>
+  <text x="64" y="474" fill="#f472b6" font-size="11.5">③④⑤</text>
+  <path d="M 620 456 C 500 520, 420 470, 560 460" stroke="#22d3ee" stroke-width="1.6" fill="none" stroke-dasharray="5 4" marker-end="url(#arr)"/>
+  <text x="360" y="508" fill="#94a3b8" font-size="11.5">payloads over HTTPS, camera-initiated</text>
+
+  <!-- sanity footer -->
+  <text x="24" y="606" fill="#5c6b7a" font-size="11">DNS answers are signed by the tool host — the vendor's own update channel delivers the payload. camera-side TLS: accepted by the stock firmware after the DNS redirect (CVE-2026-50720).</text>
+</svg>
